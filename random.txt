@@ -22,8 +22,8 @@ git log
 git show
 
 prgm 3
-cd GitLab
-git checkout -b featured-branch
+cd GitLab                                            cd ~
+git checkout -b featured-branch                      rm -rf .git
 notepad jinx.c
 git stash save "git stash demo"
 git checkout master
